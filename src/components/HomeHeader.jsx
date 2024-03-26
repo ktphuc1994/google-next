@@ -3,7 +3,7 @@ import { TbGridDots } from 'react-icons/tb';
 
 export default function HomeHeader() {
   return (
-    <header className='flex justify-end p-5 text-sm'>
+    <header className='flex justify-end p-5 text-sm shrink-0'>
       <div className='flex space-x-4 items-center'>
         <Link href='https://mail.google.com' className='hover:underline'>
           Gmail
