@@ -1,3 +1,10 @@
+import HomeHeader from '@/components/HomeHeader';
+
 export default function Home() {
-  return <main className=''>Home Page</main>;
+  return (
+    <>
+      <HomeHeader />
+      <main className=''></main>
+    </>
+  );
 }
