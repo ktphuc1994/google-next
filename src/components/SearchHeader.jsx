@@ -8,14 +8,12 @@ export default function SearchHeader() {
   return (
     <header className='sticky top-0 bg-white'>
       <div className='flex w-full p-6 items-center justify-between'>
-        <Link href='/'>
+        <Link href='/' className='relative w-[120px] h-10'>
           <Image
             src='https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg'
             alt='Google Logo'
-            width={120}
-            height={40}
+            fill
             priority
-            style={{ width: 'auto' }}
           />
         </Link>
         <div className='flex-1'>
